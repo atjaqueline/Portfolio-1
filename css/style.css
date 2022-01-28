@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    padding: 15px;
+}
+
+.header-container {
+    font-family: 'Roboto Mono', monospace;
+}
+
+svg {
+    fill: white;
+    margin-bottom: 30px;
+    transition: all 0.5 ease-out;
+}
+
+svg:hover {
+    transform: scale(1.5);
+}
+
+
+/*.contact-container {
+    padding: 100px;
+}
+*/
+
+.about-me img {
+    border-radius: 50%;
+}
+
+.projects-container {
+    margin: auto;
+    background-color: rgba(255, 229, 126, 255);
+}
+
+.container-fluid {
+    background-color: rgba(250, 147, 186, 255);
+}
+
+nav {
+    background-color: rgba(36, 184, 175, 255);
+    font-family: 'Roboto Mono', monospace;
+}
+
+a.nav-link {
+    color: white;
+}
+
+a.nav-link:hover {
+    background-color: rgba(250, 147, 186, 255);
+    color: white;
+    transition: all 0.4s ease-out;
+}
+
+.projects-container {
+    padding: 50px;
+}
+
+.card {
+    border-radius: 10px;
+    margin: 8px;
+    box-shadow: 0;
+    transition: box-shadow .5s;
+}
+
+.card:hover {
+    box-shadow: 0 0 5px #515151;
+}
+
+.row {
+    justify-content: center;
+}
+
+img {
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+img:hover {
+    opacity: 0.8;
+}
+
+.btn {
+    background-color: rgb(80, 202, 187);
+    border-color: rgb(80, 202, 187);
+    transition: all 0.5s ease-out;
+}
+
+.btn:hover {
+    background-color: rgb(250, 226, 127);
+    color: green;
+    border-color: rgb(250, 226, 127);
+}
+
+@media screen and (min-width: 1024px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 55px 1fr;
+        grid-template-rows: auto;
+    }
+    .header-container,
+    .projects-container,
+    .experience,
+    .contact {
+        grid-column: 1/2;
+    }
+    .skills {
+        grid-column: 1/1;
+    }
+    .about-me {
+        grid-column: 2/2;
+    }
+}
