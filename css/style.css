@@ -4,7 +4,6 @@
  
  body {
      font-family: 'Roboto Mono', monospace;
-     /* background-color: rgba(250, 147, 186, 255); */
  }
  
  h1 {
@@ -78,11 +77,9 @@
  
  .projects-container {
      margin: auto;
-     /* background-color: rgba(255, 229, 126, 255);*/
  }
  
  .container-fluid {
-     /* background-color: rgba(250, 147, 186, 255); */
      color: black;
  }
  
