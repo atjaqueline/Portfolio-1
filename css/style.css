@@ -37,6 +37,10 @@
      transform: scale(1.5);
  }
  
+ .skills svg {
+     fill: pink;
+ }
+ 
  p {
      margin: 15px;
  }
