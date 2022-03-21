@@ -73,6 +73,11 @@
  .skills i {
      padding: 0.3em;
      margin: 0.5em;
+     transition: all 0.3s ease-out;
+ }
+ 
+ .skills i:hover {
+     color: pink;
  }
  
  .about-me {
