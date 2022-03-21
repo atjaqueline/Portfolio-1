@@ -48,16 +48,31 @@
  .skills {
      min-height: 250px;
  }
- 
- .skills ul {
+ /*.skills ul {
      display: grid;
      grid-template-columns: repeat(3, 1fr);
      padding-left: 0;
      margin: 15px;
- }
+ } */
  
  .skills li:hover {
      opacity: 0.8;
+ }
+ 
+ .skills-flex {
+     display: flex;
+     flex-wrap: wrap;
+     align-content: space-between;
+     justify-content: center;
+ }
+ 
+ .skills div {
+     text-align: center;
+ }
+ 
+ .skills i {
+     padding: 0.3em;
+     margin: 0.5em;
  }
  
  .about-me {
