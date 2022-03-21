@@ -37,8 +37,8 @@
      transform: scale(1.5);
  }
  
- .skills svg {
-     fill: pink;
+ i {
+     font-size: 3em;
  }
  
  p {
